@@ -2,4 +2,5 @@ homelab/*.json
 homelab/*.kubeconfig
 homelab/*.yaml
 homelab.yaml
+homelab2
 .DS_Store
