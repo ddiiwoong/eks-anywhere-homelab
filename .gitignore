@@ -1,0 +1,5 @@
+homelab/*.json
+homelab/*.kubeconfig
+homelab/*.yaml
+homelab.yaml
+.DS_Store
