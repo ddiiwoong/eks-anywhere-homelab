@@ -34,16 +34,11 @@ spec:
   managementCluster:
     name: homelab
   workerNodeGroupConfigurations:
-  - count: 2
+  - count: 3
     machineGroupRef:
       kind: VSphereMachineConfig
       name: homelab
     name: md-0
-  - count: 2
-    machineGroupRef:
-      kind: VSphereMachineConfig
-      name: homelab
-    name: md-1
 
 ---
 apiVersion: anywhere.eks.amazonaws.com/v1alpha1
